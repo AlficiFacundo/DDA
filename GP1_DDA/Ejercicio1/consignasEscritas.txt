@@ -1,0 +1,12 @@
+Suponiendo que el sistema no tiene resets en medio del procedimiento, podemos plantear lo siguiente.
+Siendo i_data1 = 1
+i_data2 = 1
+i_sel = 1 (Seleccionando la salida del sumador para el multiplexor)
+i_sum va a ir sumando 2 cada vez que llegue al segundo sumador, para luego sumarse con la realimentación
+proveniente del registro. Por ello, cada vez que accede al registro sabemos que pasará un ciclo de reloj.
+
+Siguiendo con la lógica y realizando un testbench, se tiene que la salida o_data tendrá ovf
+en los 315nS. Dado que se toma el flanco de subida y nuestro período es de 10nS
+podemos calcular:
+
+315nS/10nS = 31.5 Periodos completados, o sea: 31 ciclos de reloj.
