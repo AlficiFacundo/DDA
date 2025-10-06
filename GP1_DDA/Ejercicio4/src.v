@@ -9,6 +9,7 @@ module src
     (
         input [NB_input-1 : 0] x,
         output [NB_o_fullscale-1 : 0] y,
+        output ovf,
         input rst,
         input clk 
     );
@@ -82,7 +83,6 @@ module src
             .clk(clk)
         );
     //Ecuación final. No se agregaron módulos sumadores y restadores debido
-    //a que, al ser módulos tan simples y no necesitar carry(ya lo contemplo
-    //en la cantidad de bits), aplico las operaciones directamente.
-    assign y = x_ext - x1_delay + x2_delay + x3_delay + (y1_delay >> 1) - (y2_delay >> 2);
+    //a que, al ser módulos tan simples, aplico las operaciones directamente.
+    assign {ovf,y} = x_ext - x1_delay + x2_delay + x3_delay + (y1_delay >> 1) - (y2_delay >> 2);
 endmodule
