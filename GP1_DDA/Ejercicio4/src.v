@@ -21,7 +21,7 @@ module src
     wire [NB_o_fullscale-1 : 0] y1_delay;
     wire [NB_o_fullscale-1 : 0] y2_delay;
     
-    assign x_ext = {x, 2'b00}; // de 8 bits a 13 bits con 2 fraccionarios
+    assign x_ext = {x, 2'b00}; // de 8 bits a 13 bits con 2 fraccionarios 
     
     //x[n-1]
     register 
