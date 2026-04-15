@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../VSCodeProjects/DDA/GP1_DDA/Ejercicio1/mux.v" \
+"../../../../../../VSCodeProjects/DDA/GP1_DDA/Ejercicio1/reg.v" \
+"../../../../GP_ej1.srcs/sources_1/new/src.v" \
+"../../../../../../VSCodeProjects/DDA/GP1_DDA/Ejercicio1/sum1.v" \
+"../../../../GP_ej1.srcs/sim_1/new/tb_src.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

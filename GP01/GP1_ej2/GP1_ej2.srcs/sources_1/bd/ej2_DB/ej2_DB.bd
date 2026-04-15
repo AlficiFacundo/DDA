@@ -1,0 +1,113 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1E8634681E863468",
+      "device": "xc7a12ticsg325-1L",
+      "gen_directory": "../../../../GP1_ej2.gen/sources_1/bd/ej2_DB",
+      "name": "ej2_DB",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2"
+    },
+    "design_tree": {
+      "tModule_0": "",
+      "i_dataB": "",
+      "i_dataA": "",
+      "i_sel": ""
+    },
+    "ports": {
+      "o_dataC": {
+        "direction": "O"
+      },
+      "addCarry": {
+        "direction": "O"
+      },
+      "subCarry": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "tModule_0": {
+        "vlnv": "xilinx.com:user:tModule:1.0",
+        "ip_revision": "2",
+        "xci_name": "ej2_DB_tModule_0_0",
+        "xci_path": "ip\\ej2_DB_tModule_0_0\\ej2_DB_tModule_0_0.xci",
+        "inst_hier_path": "tModule_0"
+      },
+      "i_dataB": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "ip_revision": "9",
+        "xci_name": "ej2_DB_xlconstant_0_2",
+        "xci_path": "ip\\ej2_DB_xlconstant_0_2\\ej2_DB_xlconstant_0_2.xci",
+        "inst_hier_path": "i_dataB",
+        "parameters": {
+          "CONST_WIDTH": {
+            "value": "16"
+          }
+        }
+      },
+      "i_dataA": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "ip_revision": "9",
+        "xci_name": "ej2_DB_xlconstant_0_1",
+        "xci_path": "ip\\ej2_DB_xlconstant_0_1\\ej2_DB_xlconstant_0_1.xci",
+        "inst_hier_path": "i_dataA",
+        "parameters": {
+          "CONST_WIDTH": {
+            "value": "16"
+          }
+        }
+      },
+      "i_sel": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "ip_revision": "9",
+        "xci_name": "ej2_DB_xlconstant_0_0",
+        "xci_path": "ip\\ej2_DB_xlconstant_0_0\\ej2_DB_xlconstant_0_0.xci",
+        "inst_hier_path": "i_sel",
+        "parameters": {
+          "CONST_WIDTH": {
+            "value": "2"
+          }
+        }
+      }
+    },
+    "nets": {
+      "tModule_0_addCarry": {
+        "ports": [
+          "tModule_0/addCarry",
+          "addCarry"
+        ]
+      },
+      "tModule_0_o_dataC": {
+        "ports": [
+          "tModule_0/o_dataC",
+          "o_dataC"
+        ]
+      },
+      "tModule_0_subCarry": {
+        "ports": [
+          "tModule_0/subCarry",
+          "subCarry"
+        ]
+      },
+      "xlconstant_0_dout": {
+        "ports": [
+          "i_sel/dout",
+          "tModule_0/i_sel"
+        ]
+      },
+      "xlconstant_1_dout": {
+        "ports": [
+          "i_dataA/dout",
+          "tModule_0/i_dataA"
+        ]
+      },
+      "xlconstant_2_dout": {
+        "ports": [
+          "i_dataB/dout",
+          "tModule_0/i_dataB"
+        ]
+      }
+    }
+  }
+}

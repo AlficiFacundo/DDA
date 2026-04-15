@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+Overflow detectado en el ciclo          32
+$finish called at time : 325 ns : File "C:/Users/facun/vivadoProjects/GP_ej1/GP_ej1.srcs/sim_1/new/tb_src.v" Line 82

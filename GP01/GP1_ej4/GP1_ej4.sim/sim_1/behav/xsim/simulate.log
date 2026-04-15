@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+t=30000 | x=  0 | y=   00
+t=40000 | x=255 | y= 5100
+t=50000 | x=128 | y= 7660
+t=60000 | x= 64 | y=17870
+t=70000 | x=  1 | y=14080
+$finish called at time : 120 ns : File "C:/Users/facun/vivadoProjects/GP1_ej4/GP1_ej4.srcs/sim_1/new/tb_src.v" Line 78

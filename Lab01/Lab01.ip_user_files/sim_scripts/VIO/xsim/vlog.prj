@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../Lab01.gen/sources_1/bd/VIO/ipshared/814a/hdl/verilog" --include "../../../../Lab01.gen/sources_1/bd/VIO/ipshared/1017/hdl/verilog" --include "../../../../Lab01.gen/sources_1/bd/VIO/ipshared/4506/hdl" \
+"../../../bd/VIO/ip/VIO_vio_0_0/sim/VIO_vio_0_0.v" \
+"../../../bd/VIO/sim/VIO.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

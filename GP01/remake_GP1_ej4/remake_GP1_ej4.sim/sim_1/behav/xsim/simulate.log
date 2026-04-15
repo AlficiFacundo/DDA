@@ -1,0 +1,26 @@
+Time resolution is 1 ps
+t=0 | x=   0 | y=    0
+=== Impulso en x_in ===
+t=20000 | x=  50 | y=    0
+t=30000 | x=   0 | y=    0
+t=35000 | x=   0 | y=   50
+t=45000 | x=   0 | y=  -50
+t=55000 | x=   0 | y=   50
+t=65000 | x=   0 | y=   75
+t=75000 | x=   0 | y= 1011
+=== Secuencia de valores ===
+t=80000 | x=  30 | y= 1011
+t=85000 | x=  30 | y=  524
+t=90000 | x=  20 | y=  524
+t=95000 | x=  20 | y=   79
+t=100000 | x=  10 | y=   79
+t=105000 | x=  10 | y=  513
+t=110000 | x=   5 | y=  513
+t=115000 | x=   5 | y=  534
+t=120000 | x=   0 | y=  534
+t=125000 | x=   0 | y=  215
+t=135000 | x=   0 | y=  300
+t=145000 | x=   0 | y=  410
+t=155000 | x=   0 | y=  245
+t=165000 | x=   0 | y=  203
+$finish called at time : 170 ns : File "C:/Users/facun/vivadoProjects/remake_GP1_ej4/remake_GP1_ej4.srcs/sim_1/new/tb_top_level.v" Line 78

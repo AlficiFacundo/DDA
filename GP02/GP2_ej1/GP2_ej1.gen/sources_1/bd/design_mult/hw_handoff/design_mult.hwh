@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Oct 25 00:22:40 2025" VIVADOVERSION="2024.2">
+
+  <SYSTEMINFO ARCH="artix7" DEVICE="7a12ti" NAME="design_mult" PACKAGE="csg325" SPEEDGRADE="-1L"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="12" NAME="i_inputA_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_i_inputA_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_mult_0" PORT="i_inputA"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" LEFT="12" NAME="i_inputB_0" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_i_inputB_0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_mult_0" PORT="i_inputB"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="12" NAME="o_result_0" RIGHT="0" SIGIS="undef" SIGNAME="top_mult_0_o_result">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="top_mult_0" PORT="o_result"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/top_mult_0" HWVERSION="1.0" INSTANCE="top_mult_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="top_mult" VLNV="xilinx.com:module_ref:top_mult:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="BIAS" VALUE="7"/>
+        <PARAMETER NAME="NB_exp" VALUE="4"/>
+        <PARAMETER NAME="NB_mant" VALUE="8"/>
+        <PARAMETER NAME="NB_max" VALUE="13"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_mult_top_mult_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="12" NAME="i_inputA" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_i_inputA_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="i_inputA_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="12" NAME="i_inputB" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_i_inputB_0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="i_inputB_0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="12" NAME="o_result" RIGHT="0" SIGIS="undef" SIGNAME="top_mult_0_o_result">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="o_result_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

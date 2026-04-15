@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../OneDrive/Desktop/Diseño Digital Avanzado/Unit01/sr_muxVioIla/shiftReg/shiftleds.v" \
+"../../../../../../OneDrive/Desktop/Diseño Digital Avanzado/Unit01/sr_muxVioIla/shiftReg/tb_shiftleds.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

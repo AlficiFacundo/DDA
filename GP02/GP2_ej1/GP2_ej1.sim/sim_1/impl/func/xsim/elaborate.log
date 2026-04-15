@@ -1,0 +1,30 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot tb_top_mult_func_impl xil_defaultlib.tb_top_mult xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'top_mult' does not have a parameter named NB_max [C:/Users/facun/vivadoProjects/GP2_ej1/GP2_ej1.srcs/sim_1/new/tb_top_mult.v:31]
+WARNING: [VRFC 10-2861] module 'top_mult' does not have a parameter named NB_mant [C:/Users/facun/vivadoProjects/GP2_ej1/GP2_ej1.srcs/sim_1/new/tb_top_mult.v:32]
+WARNING: [VRFC 10-2861] module 'top_mult' does not have a parameter named NB_exp [C:/Users/facun/vivadoProjects/GP2_ej1/GP2_ej1.srcs/sim_1/new/tb_top_mult.v:33]
+WARNING: [VRFC 10-2861] module 'top_mult' does not have a parameter named BIAS [C:/Users/facun/vivadoProjects/GP2_ej1/GP2_ej1.srcs/sim_1/new/tb_top_mult.v:34]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.IBUF
+Compiling module unisims_ver.OBUF
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.CARRY4
+Compiling module unisims_ver.LUT5
+Compiling module unisims_ver.LUT4
+Compiling module unisims_ver.LUT6
+Compiling module unisims_ver.x_lut3_mux8
+Compiling module unisims_ver.LUT3(INIT=8'b10000000)
+Compiling module xil_defaultlib.adder_w_mult
+Compiling module xil_defaultlib.top_mult
+Compiling module xil_defaultlib.tb_top_mult
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_mult_func_impl

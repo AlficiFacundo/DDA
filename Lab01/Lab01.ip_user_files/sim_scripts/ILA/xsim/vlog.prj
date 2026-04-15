@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../Lab01.gen/sources_1/bd/ILA/ipshared/814a/hdl/verilog" --include "../../../../Lab01.gen/sources_1/bd/ILA/ipshared/1017/hdl/verilog" --include "../../../../Lab01.gen/sources_1/bd/ILA/ipshared/52c0/hdl/verilog" --include "../../../../Lab01.gen/sources_1/bd/ILA/ipshared/2276/hdl/verilog" \
+"../../../bd/ILA/ip/ILA_ila_0_0/sim/ILA_ila_0_0.v" \
+"../../../bd/ILA/sim/ILA.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

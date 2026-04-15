@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../VSCodeProjects/DDA/GP1_DDA/Ejercicio4/register.v" \
+"../../../../GP1_ej4.srcs/sources_1/new/src.v" \
+"../../../../GP1_ej4.srcs/sim_1/new/tb_src.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

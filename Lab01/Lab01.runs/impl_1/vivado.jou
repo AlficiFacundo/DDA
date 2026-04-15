@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Thu Oct  9 20:44:24 2025
+# Process ID         : 16720
+# Current directory  : C:/Users/facun/vivadoProjects/Lab01/Lab01.runs/impl_1
+# Command line       : vivado.exe -log shiftleds_muxVioIla.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source shiftleds_muxVioIla.tcl -notrace
+# Log file           : C:/Users/facun/vivadoProjects/Lab01/Lab01.runs/impl_1/shiftleds_muxVioIla.vdi
+# Journal file       : C:/Users/facun/vivadoProjects/Lab01/Lab01.runs/impl_1\vivado.jou
+# Running On         : NoteFacu
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26100
+# Processor Detail   : AMD Ryzen 7 7435HS                             
+# CPU Frequency      : 3094 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 16849 MB
+# Swap memory        : 6509 MB
+# Total Virtual      : 23359 MB
+# Available Virtual  : 2412 MB
+#-----------------------------------------------------------
+source shiftleds_muxVioIla.tcl -notrace

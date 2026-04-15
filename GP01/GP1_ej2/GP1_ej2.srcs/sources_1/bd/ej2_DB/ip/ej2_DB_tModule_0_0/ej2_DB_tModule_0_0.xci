@@ -1,0 +1,52 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "ej2_DB_tModule_0_0",
+    "cell_name": "tModule_0",
+    "component_reference": "xilinx.com:user:tModule:1.0",
+    "ip_revision": "2",
+    "gen_directory": "../../../../../../GP1_ej2.gen/sources_1/bd/ej2_DB/ip/ej2_DB_tModule_0_0",
+    "parameters": {
+      "component_parameters": {
+        "NB_size": [ { "value": "16", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "Component_Name": [ { "value": "ej2_DB_tModule_0_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "model_parameters": {
+        "NB_size": [ { "value": "16", "resolve_type": "generated", "format": "long", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "artix7" } ],
+        "BASE_BOARD_PART": [ { "value": "" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xc7a12ti" } ],
+        "PACKAGE": [ { "value": "csg325" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-1L" } ],
+        "STATIC_POWER": [ { "value": "" } ],
+        "TEMPERATURE_GRADE": [ { "value": "I" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "2" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "../../../../../../GP1_ej2.gen/sources_1/bd/ej2_DB/ip/ej2_DB_tModule_0_0" } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../ipshared" } ],
+        "SWVERSION": [ { "value": "2024.2" } ],
+        "SYNTHESISFLOW": [ { "value": "OUT_OF_CONTEXT" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "i_sel": [ { "direction": "in", "size_left": "1", "size_right": "0" } ],
+        "i_dataA": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
+        "i_dataB": [ { "direction": "in", "size_left": "15", "size_right": "0" } ],
+        "o_dataC": [ { "direction": "out", "size_left": "15", "size_right": "0" } ],
+        "addCarry": [ { "direction": "out" } ],
+        "subCarry": [ { "direction": "out" } ]
+      }
+    }
+  }
+}

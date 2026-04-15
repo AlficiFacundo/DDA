@@ -1,0 +1,7 @@
+Time resolution is 1 ps
+t=0 | i_data1=0011110000000 | i_data2=0011110000000 | o_data=0011110000000
+t=10000 | i_data1=0111111111111 | i_data2=0111111111111 | o_data=0111100000000
+t=20000 | i_data1=0000000000001 | i_data2=0000000000001 | o_data=0101110000000
+t=30000 | i_data1=1011110000000 | i_data2=0011110000000 | o_data=1011110000000
+t=40000 | i_data1=0000000000000 | i_data2=0011110000000 | o_data=0000000000000
+$finish called at time : 50 ns : File "C:/Users/facun/vivadoProjects/remake_GP2_ej1/remake_GP2_ej1.srcs/sim_1/new/top_level_tb.v" Line 72

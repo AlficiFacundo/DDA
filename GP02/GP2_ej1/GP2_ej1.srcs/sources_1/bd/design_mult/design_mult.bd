@@ -1,0 +1,85 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xDE701589DE701589",
+      "device": "xc7a12ticsg325-1L",
+      "gen_directory": "../../../../GP2_ej1.gen/sources_1/bd/design_mult",
+      "name": "design_mult",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2024.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "top_mult_0": ""
+    },
+    "ports": {
+      "i_inputA_0": {
+        "direction": "I",
+        "left": "12",
+        "right": "0"
+      },
+      "i_inputB_0": {
+        "direction": "I",
+        "left": "12",
+        "right": "0"
+      },
+      "o_result_0": {
+        "direction": "O",
+        "left": "12",
+        "right": "0"
+      }
+    },
+    "components": {
+      "top_mult_0": {
+        "vlnv": "xilinx.com:module_ref:top_mult:1.0",
+        "ip_revision": "1",
+        "xci_name": "design_mult_top_mult_0_0",
+        "xci_path": "ip\\design_mult_top_mult_0_0\\design_mult_top_mult_0_0.xci",
+        "inst_hier_path": "top_mult_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "top_mult",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "i_inputA": {
+            "direction": "I",
+            "left": "12",
+            "right": "0"
+          },
+          "i_inputB": {
+            "direction": "I",
+            "left": "12",
+            "right": "0"
+          },
+          "o_result": {
+            "direction": "O",
+            "left": "12",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "i_inputA_0_1": {
+        "ports": [
+          "i_inputA_0",
+          "top_mult_0/i_inputA"
+        ]
+      },
+      "i_inputB_0_1": {
+        "ports": [
+          "i_inputB_0",
+          "top_mult_0/i_inputB"
+        ]
+      },
+      "top_mult_0_o_result": {
+        "ports": [
+          "top_mult_0/o_result",
+          "o_result_0"
+        ]
+      }
+    }
+  }
+}
